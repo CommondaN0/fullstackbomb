@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комментарии</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
+        #comments-container { min-height: 200px; border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; border-radius: 8px; }
+        .comment { background: #f5f5f5; padding: 10px; margin-bottom: 10px; border-radius: 5px; }
+        #input-field { width: 70%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; resize: vertical; min-height: 80px; }
+        #send-btn { width: 25%; padding: 10px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; margin-left: 5px; }
+        #send-btn:disabled { background: #ccc; cursor: not-allowed; }
+    </style>
+</head>
+<body>
+    <h1>Комментарии</h1>
+    
+    <!-- Контейнер для комментариев -->
+    <div id="comments-container">
+        <p>Здесь будут появляться комментарии...</p>
+    </div>
+    
+    <!-- Поле ввода и кнопка -->
+    <textarea id="input-field" placeholder="Введите текст комментария..." ></textarea>
+    <button id="send-btn" disabled>Отправить</button>
+    
+    <script>
+        // Логика отключена по запросу, но для демонстрации кнопки добавил базовый listener
+        const input = document.getElementById('input-field');
+        const btn = document.getElementById('send-btn');
+        const container = document.getElementById('comments-container');
+        
+        input.addEventListener('input', () => {
+            btn.disabled = input.value.trim() === '';
+        });
+        
+        btn.addEventListener('click', () => {
+            if (input.value.trim()) {
+                // Здесь будет логика добавления комментария
+                console.log('Отправка:', input.value);
+                input.value = '';
+                btn.disabled = true;
+            }
+        });
+    </script>
+</body>
+</html>
