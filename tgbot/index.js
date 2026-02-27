@@ -1,6 +1,6 @@
 // const { Telegraf } = require('telegraf');
 
-// const bot = new Telegraf('8566475238:AAEZav7fwiG0uH3PmFhcasJn82U2EfyW16Y');
+// const bot = new Telegraf('');
 
 // bot.use(async (ctx) => {
 //     await ctx.reply(JSON.stringify(ctx.update, null, 2));
@@ -15,7 +15,7 @@
 
 // const { Telegraf } = require('telegraf');
 
-// const bot = new Telegraf('8566475238:AAEZav7fwiG0uH3PmFhcasJn82U2EfyW16Y');
+// const bot = new Telegraf('');
 
 // const middleware1 = (ctx, next) => {
 //     console.log('middleware1');
@@ -41,7 +41,7 @@
 
 // const {Telegraf, Markup} = require('telegraf');
 
-// const bot = new Telegraf('8566475238:AAEZav7fwiG0uH3PmFhcasJn82U2EfyW16Y');
+// const bot = new Telegraf('');
 
 // bot.command('help', (ctx) => {
 //     ctx.reply(`
@@ -112,7 +112,7 @@
 
 // const {Telegraf} = require('telegraf');
 
-// const bot = new Telegraf('8566475238:AAEZav7fwiG0uH3PmFhcasJn82U2EfyW16Y');
+// const bot = new Telegraf('');
 
 // const chatId = 421721685;
 // const intervalMs = 1000;

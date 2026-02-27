@@ -53,3 +53,6 @@ console.log("Запущен бот");
         // for (let i = 0; i < resultsText.length; i += chunkSize) {
         // await ctx.reply(resultsText.slice(i, i + chunkSize));
         // }
+
+let a = Array.from({length: 9}, (_, j) => j);
+console.log(a);
