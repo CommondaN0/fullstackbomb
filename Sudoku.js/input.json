@@ -1,0 +1,11 @@
+{
+  "Auth": {
+    "login": "admin",
+    "password": "admin"
+  },
+  "Headers": {
+    "Cookie": "token",
+    "Content": "json"
+  },
+  "date": "2026-01-30T07:54:31.514Z"
+}
