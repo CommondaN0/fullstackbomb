@@ -77,3 +77,5 @@ checkbox
 |name|url|logo|
 |:-|:-:|-:|
 |vue.js|https://vuejs.org| <img src="https://vuejs.org/images/logo.png" width="50" />|
+
+<img src="https://pngate.com/wp-content/uploads/2025/07/rolls-royce-logo-set-golden-and-silver-symbols-1.png" width="50" /> <img src="https://pngate.com/wp-content/uploads/2025/07/rolls-royce-logo-set-golden-and-silver-symbols-1.png" width="50" /> <img src="https://pngate.com/wp-content/uploads/2025/07/rolls-royce-logo-set-golden-and-silver-symbols-1.png" width="50" /> <img src="https://pngate.com/wp-content/uploads/2025/07/rolls-royce-logo-set-golden-and-silver-symbols-1.png" width="50" /> <img src="https://pngate.com/wp-content/uploads/2025/07/rolls-royce-logo-set-golden-and-silver-symbols-1.png" width="50" />
